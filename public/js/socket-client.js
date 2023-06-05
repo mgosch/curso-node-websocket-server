@@ -9,7 +9,7 @@ const btnEnviar  = document.querySelector('#btnEnviar');
 const socket = io();
 
 
-// listener que están escuchando
+
 socket.on('connect', () => {
     // console.log('Conectado');
 
